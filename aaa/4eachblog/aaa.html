@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>css課題２</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+        $(".toppic").bxSlider({
+          auto:true,
+          mode:"horizontal",
+          speed:1000,
+          slidewidth:400
+        });
+      });
+    </script>
+    
+  </head>
+  
+  <body>
+    <header>
+      <div class="header-logo">
+        <img src="4eachblog_logo.jpg">
+      </div>
+      <ul>
+        <li>トップ</li>
+        <li>プロフィール</li>
+        <li>4eachについて</li>
+        <li>登録フォーム</li>
+        <li>問い合わせ</li>
+        <li>その他</li>
+      </ul>
+    </header>
+    
+    <main>
+      <div class="left">
+        <h1>プログラミングに役立つ書籍</h1>
+        <p>2017年1月15日</p>
+        <div class="toppic">
+          <div><img src="jQuery_image1.jpg"></div>
+          <div><img src="jQuery_image2.jpg"></div>
+          <div><img src="jQuery_image3.jpg"></div>
+          <div><img src="jQuery_image4.jpg"></div>
+          <div><img src="jQuery_image5.jpg"></div>
+        </div>
+        <p>4eachはインターノースが提供するオンラインプログラミングができるイーラーニングシステムです。</p>
+        <p>記事中身</p>
+        
+        <div class="box1">
+          <div class="pic1">
+            <img src="pic1.jpg" class="ps">
+            <p>ドメイン取得</p>
+          </div>
+          <div class="pic1">
+            <img src="pic2.jpg" class="ps">
+            <p>快適な職場環境</p>
+          </div>  
+          <div class="pic1">
+            <img src="pic3.jpg" class="ps">
+            <p>Linuxの基礎</p>
+          </div>
+          <div class="pic1">
+            <img src="pic4.jpg" class="ps">
+            <p>マーケティング入門</p>
+          </div>
+        </div>
+        
+        <div class="box2">
+          <div class="pic2">
+            <img src="pic5.jpg" class="ps">
+            <p>アクティブラーニング</p>
+          </div>
+          <div class="pic1">
+            <img src="pic6.jpg" class="ps">
+            <p>CSSの効率的</p>
+          </div>
+          <div class="pic1">
+            <img src="pic7.jpg" class="ps">
+            <p>リータブルコード</p>
+          </div>
+          <div class="pic1">
+            <img src="pic8.jpg" class="ps">
+            <p>HTML5</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="right">
+        <h2>人気の記事</h2>
+          <ul>
+            <li>PHPオススメ本</li>
+            <li>PHP使い方</li>
+            <li>今人気のエディタ</li>
+            <li>HTMLの基礎</li>
+          </ul>
+        <h2>オススメ</h2>
+          <ul>
+            <li>インター株式会社</li>
+            <li>XAMPPダウンロード</li>
+            <li>FKAPダウンロード</li>
+            <li>FJDOAのダウンロード</li>
+          </ul>
+        <h2>カテゴリ</h2>
+          <ul>
+            <li>HTML</li>
+            <li>PHP</li>
+            <li>MYSQL</li>
+            <li>JAVASCRIPT</li>
+          </ul>
+      </div>
+    
+    </main>
+    
+    <footer>
+        copyright internous | 4each bolg is the one which provides a to z about programing
+      
+    </footer>
+    
+    
+  </body>
+  
+</html>
