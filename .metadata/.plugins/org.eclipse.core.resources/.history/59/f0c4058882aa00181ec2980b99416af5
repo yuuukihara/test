@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class ACTIOn{
+	public static void main(String[]args){
+
+		Set<String> colors = Hashset<String>();
+		colors.add("red");
+		colors.add("blue");
+		colors.add("green");
+
+		for(String a:colors){
+			System.out.println(a);
+		}
+
+
+	}
+}

@@ -1,0 +1,12 @@
+package fefeaeijfoif;
+
+public class A {
+	public static void main(String[] args){
+
+		Hero s = new Hero();
+		s.name = "itou";
+		s.hp = 12;
+		System.out.println(s);
+
+	}
+}

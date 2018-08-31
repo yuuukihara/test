@@ -1,0 +1,11 @@
+import java.util.*;
+
+public class ACTIOn{
+	public static void main(String[]args){
+
+		Set<String> colors = Hashset<String>();
+		colors.add("red");
+
+
+	}
+}

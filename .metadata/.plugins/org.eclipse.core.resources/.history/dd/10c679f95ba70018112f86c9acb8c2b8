@@ -1,0 +1,15 @@
+package fefeaeijfoif;
+
+public class A {
+	public static void main(String[] args){
+		Hero b = new Hero();
+		b.name ="佐藤";
+		a.name = b;
+
+		Character a = new Hero();
+
+		a.name = "itou";
+		a.run();
+
+	}
+}

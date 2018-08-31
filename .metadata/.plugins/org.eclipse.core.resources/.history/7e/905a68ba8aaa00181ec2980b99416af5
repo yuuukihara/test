@@ -1,0 +1,20 @@
+import java.util.HashMap;
+import java.util.Map;
+public class ACTIOn{
+	public static void main(String[]args){
+
+		Hero a = new Hero("佐藤");
+		Hero b = new Hero("鈴木");
+
+		Map<Hero,Integer> h1 = new HashMap<Hero,Integer>();
+
+		h1.put(a,3);
+		h1.put(b,7);
+
+		for(Hero i:h1.keySet()){
+			int value = h1.get(i);
+			System.out.println(i.getName()+value);
+		}
+
+	}
+}

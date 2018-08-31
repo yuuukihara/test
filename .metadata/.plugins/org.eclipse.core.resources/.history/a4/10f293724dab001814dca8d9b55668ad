@@ -1,0 +1,19 @@
+package aa;
+
+public class model {
+	private String id;
+	private String name;
+
+	public model(String id,String name){
+		this.id = id;
+		this.name = name;
+	}
+
+	public String getId(String id){
+		return this.id;
+	}
+	public String getName(String name){
+		return this.name;
+	}
+
+}

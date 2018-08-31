@@ -1,0 +1,20 @@
+package fefeaeijfoif;
+
+public class Matango {
+
+	int hp;
+	char suffix;
+
+	Matango(int hp,char suffix){
+		this.hp = hp;
+		this.suffix = suffix;
+	}
+
+	public Matango(char suffix){
+		this.suffix = suffix;
+	}
+	public void attack(Hero h){
+		System.out.println("キノコ"+this.suffix+"の攻撃");
+		h.setHp(h.getHp()-10);
+	}
+}

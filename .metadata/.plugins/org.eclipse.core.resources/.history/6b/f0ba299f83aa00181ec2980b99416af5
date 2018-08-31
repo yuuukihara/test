@@ -1,0 +1,15 @@
+import java.util.HashMap;
+import java.util.Map;
+public class ACTIOn{
+	public static void main(String[]args){
+
+		Map<String,Integer> prefs = new HashMap<String,Integer>();
+		prefs.put("東京",1000);
+		prefs.put("神奈川",200);
+
+		for(int i:prefs.values()){
+			System.out.println(i);
+		}
+
+	}
+}

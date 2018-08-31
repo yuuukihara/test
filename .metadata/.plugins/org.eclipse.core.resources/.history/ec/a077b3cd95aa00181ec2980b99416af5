@@ -1,0 +1,10 @@
+public class ACTIOn{
+	public static void main(String[]args){
+
+		IntToDoubleFunction func = x -> x*x*x;
+
+
+
+
+	}
+}

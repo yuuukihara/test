@@ -1,0 +1,13 @@
+package fefeaeijfoif;
+
+public class A {
+	public static void main(String[] args){
+
+		Hero a = new Hero("よもぎだ",50);
+
+		PoisonMatango b = new PoisonMatango(30,"A");
+
+		b.attack(a);
+
+	}
+}

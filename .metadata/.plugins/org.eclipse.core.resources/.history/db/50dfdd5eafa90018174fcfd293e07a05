@@ -1,0 +1,20 @@
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+public class a {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		JFrame frame = new JFrame("oefa");
+		JLabel label = new JLabel("joiwea");
+		JButton button = new JButton("cleak");
+
+		frame.getContentPane().add(label);
+		frame.getContentPane().add(button);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(300, 100);
+		frame.setVisible(true);
+	}
+
+}

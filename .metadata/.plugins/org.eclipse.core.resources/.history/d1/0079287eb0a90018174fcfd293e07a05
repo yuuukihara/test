@@ -1,0 +1,22 @@
+
+public class Main {
+	public static void main(String[]args){
+		String s1 = "java";
+		String s2 = "Java";
+		String s3 = "すっきりjava";
+
+		if(s1.equals(s2)){
+			System.out.println("１２一緒");
+		}
+		if(s1.equalsIgnoreCase(s2)){
+			System.out.println("moziitti12");
+		}
+
+		System.out.println("s1のながさ"+s1.length());
+
+		if(s3.contains(s1)){
+			System.out.println("ok");
+		}
+	}
+
+}

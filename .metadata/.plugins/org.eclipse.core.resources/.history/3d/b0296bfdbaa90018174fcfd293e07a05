@@ -1,0 +1,15 @@
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String[]args){
+		ArrayList<Integer> Points = new ArrayList<Integer>();
+		Points.add(19);
+		Points.add(22);
+		Points.add(4378);
+		for(int a:Points){
+			System.out.println(a);
+		}
+	}
+
+}

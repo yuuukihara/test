@@ -1,0 +1,20 @@
+
+public class Main {
+	public static void main(String[]args){
+
+		String s1 = "JAVA and JavaScript";
+
+		if(s1.contains("and")){
+			System.out.println(s1+"にandが含まれている");
+		}
+
+		if(s1.endsWith("t")){
+			System.out.println("jagoierwg;jr");
+		}
+
+		if(s1.startsWith("JAVA")){
+			System.out.println("jiogjes");
+		}
+	}
+
+}

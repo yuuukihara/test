@@ -1,0 +1,18 @@
+import java.util.HashMap;
+import java.util.Map;
+public class ACTIOn{
+	public static void main(String[]args){
+
+		Hero a = new Hero("佐藤");
+		Hero b = new Hero("鈴木");
+
+		Map<Hero,Integer> h1 = new HashMap<Hero,Integer>();
+		Map<Hero,Integer> h2 = new HashMap<Hero,Integer>();
+
+		h1.put(a,3);
+		h2.put(b,3);
+
+		System.out.println(h1.equals(h2));
+
+	}
+}

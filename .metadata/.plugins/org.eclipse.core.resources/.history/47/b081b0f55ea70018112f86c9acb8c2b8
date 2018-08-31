@@ -1,0 +1,13 @@
+package fefeaeijfoif;
+
+public class A {
+	public static void main(String[] args){
+
+
+		Character a = new Hero();
+
+
+		System.out.println(a.name);
+
+	}
+}

@@ -1,0 +1,9 @@
+
+public class aaa {
+	String a = "Jiogjweapigjrejoglr";
+	String b = "joiragjkrgjkla";
+
+	public static void main(String[]args){
+		System.out.println(aaa.toString());
+	}
+}

@@ -1,0 +1,18 @@
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+public class ACTIOn{
+	public static void main(String[]args){
+
+		Hero a = new Hero();
+		a.name = "yomogi";
+
+		List<Hero> b = new ArrayList<Hero>();
+		b.add(a);
+
+		a.name ="saito";
+
+		System.out.println(b.get(0));
+
+	}
+}

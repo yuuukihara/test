@@ -1,0 +1,21 @@
+import java.util.*;
+
+
+public class Main {
+	public static void main(String[]args){
+		Hero h1 = new Hero("yamada");
+		Hero h2 = new Hero("yomogida");
+
+		ArrayList<Hero> heroes = new ArrayList<Hero>();
+		heroes.add(h1);
+		heroes.add(h2);
+
+		for(String a:heroes){
+			System.out.println(a.name);
+		}
+
+	}
+
+
+
+}

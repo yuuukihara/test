@@ -1,0 +1,28 @@
+package fefeaeijfoif;
+
+public class A {
+	public static void main(String[] args){
+
+		Hero yuu = new Hero("ゆうき",40);
+		yuu.run();
+		yuu.sleep();
+		yuu.sit(5);
+		yuu.slip();
+
+		Matango a = new Matango("A",30);
+		a.run();
+
+		Cleric b = new Cleric("魔法",40,2);
+		b.pray(2);
+
+		Sword i = new Sword();
+		i.name = "穂脳の件";
+		i.damage=12;
+
+		yuu.sword = i;
+		System.out.println(yuu.sword.name);
+		
+		
+
+	}
+}

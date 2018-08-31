@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 7 elements from プロジェクト &apos;WebProj6&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;WebProj6&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     WEB-INF&#x0D;&#x0A;     hello.jsp&#x0D;&#x0A;     helloStrutsError.jsp&#x0D;&#x0A;     index.jsp&#x0D;&#x0A;     login.jsp&#x0D;&#x0A;     loginError.jsp&#x0D;&#x0A;     welcome.jsp" description="要素の削除" element1="WebContent/WEB-INF" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1534753665156" subPackages="false" version="1.0"/>
+</session>

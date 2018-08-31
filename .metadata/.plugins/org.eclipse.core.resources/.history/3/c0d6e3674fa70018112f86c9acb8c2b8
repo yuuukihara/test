@@ -1,0 +1,13 @@
+package fefeaeijfoif;
+
+public class PoisonMatango extends Matango{
+
+	void Matango(){
+		System.out.println("joeiwajgrhkeopiajgrephj");
+	}
+
+	public void ran(){
+		System.out.println("jgoiajiorw");
+	}
+
+}

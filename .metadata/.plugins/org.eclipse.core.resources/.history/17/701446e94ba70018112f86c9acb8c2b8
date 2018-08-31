@@ -1,0 +1,11 @@
+package fefeaeijfoif;
+
+public class Matango {
+
+	private int hp;
+	private String suffix;
+
+	public Matango(char suffix){
+		this.suffix = suffix;
+	}
+}

@@ -1,0 +1,15 @@
+package fefeaeijfoif;
+
+public class Matango {
+
+	private int hp;
+	private String suffix;
+
+	final Matango(){
+		System.out.println("joiaj");
+	}
+
+	public Matango(String suffix){
+		this.suffix = suffix;
+	}
+}

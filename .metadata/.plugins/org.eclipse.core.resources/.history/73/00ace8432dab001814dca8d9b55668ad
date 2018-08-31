@@ -1,0 +1,15 @@
+public class Main {
+	public static void main(String[] args) throws Exception{
+
+		for(int i=10;i>=1;i--){
+			for(int e=0;e<=i;e++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+
+
+
+
+	}
+}

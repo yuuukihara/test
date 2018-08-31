@@ -1,0 +1,18 @@
+import java.util.*;
+import java.util.Set;
+
+public class ACTIOn{
+	public static void main(String[]args){
+
+		Set<String> colors = new TreeSet<String>();
+		colors.add("red");
+		colors.add("blue");
+		colors.add("green");
+
+		for(String a:colors){
+			System.out.println(a);
+		}
+
+
+	}
+}

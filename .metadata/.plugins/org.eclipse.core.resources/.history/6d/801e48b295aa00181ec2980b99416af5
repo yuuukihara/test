@@ -1,0 +1,13 @@
+import java.util.function.StringBinaryOperator;
+
+public class ACTIOn{
+	public static void main(String[]args){
+
+		StringBinaryOperator func =(Strign a,String b)->{return a+b;};
+		System.out.println(a);
+
+
+
+
+	}
+}
