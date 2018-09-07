@@ -1,0 +1,65 @@
+package servlet;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import model.Tasulogic;
+
+
+@WebServlet("/Keisan")
+public class Keisan extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+	dispatcher.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		String keisan = request.getParameter("keisan");
+		String way = request.getParameter("way");
+
+		String[] math = keisan.split(" ");
+
+		// TODO 足し算をする
+		if(way=="1"){
+			Tasulogic tasuLogic = new Tasulogic();
+			int Result = tasuLogic.execute(math);
+		}
+		if(way=="2"){
+			Hikulogic hikuLogic = new Hikulogic();
+			int hikuResult = hikuLogic.execute(math);
+		}
+
+		if(way=="3"){
+			Kakerulogic kakeruLogic = new Kakerulogic();
+			int kakeruResult = kakeruLogic.execute(math);
+		}
+
+		if(way=="4"){
+			Warulogic waruLogic = new Warulogic();
+			int waruResult = waruLogic.execute(math);
+		}
+
+
+
+
+		// TODO 引き算をする
+
+		request.setAttribute("result",Result);
+
+
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/result.jsp");
+		dispatcher.forward(request, response);
+
+	}
+
+}

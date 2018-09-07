@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import ="model.Tasu"%>
+<% Tasu tasu = (Tasu) request.getAttribute("tasu"); %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<p>計算入力</p>
+<form action="Keisan" method="post">
+<input type="text" name="tasu1">
+<input type="text" name="tasu2">
+<input type="text" name="tasu3">
+<input type="text" name="tasu4">
+<input type="submit" value="計算">
+</form>
+
+<p>合計は<%= tasu.getTotal() %></p>
+
+</body>
+</html>

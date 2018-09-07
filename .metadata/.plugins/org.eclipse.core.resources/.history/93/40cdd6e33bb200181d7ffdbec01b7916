@@ -1,0 +1,28 @@
+package aaa;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class A0907 {
+
+    public static void main(String[] args) {
+
+    	int item= 500;
+    	int pay=1000;
+    	int oturi = pay - item;
+
+        Map<String, String> map = new HashMap<>();
+        map.put("itiman", "10000");
+        map.put("gosen", "5000");
+        map.put("sen", "1000");
+        map.put("gohyaku","500");
+        map.put("hyaku","100");
+        map.put("goju","50");
+        map.put("ju","10");
+        map.put("go","5");
+        map.put("iti","1");
+
+        System.out.println(map.keySet("itiman"));
+    }
+
+}

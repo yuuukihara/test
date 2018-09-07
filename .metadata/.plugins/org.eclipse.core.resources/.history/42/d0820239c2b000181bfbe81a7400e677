@@ -1,0 +1,78 @@
+package model;
+
+public class Logic {
+
+	//足し算
+	public double tasu(String[] tasu){
+		int total = 0;
+		for(String result:tasu){
+			int a = Integer.parseInt(result);
+			total += a;
+		}
+		return total;
+	}
+
+	//引き算
+
+	public double hiku(String[] hiku){
+		double total = 0;
+		for(String result:hiku){
+			if(total == 0){
+				double a = Integer.parseInt(result);
+				total += a;
+			}else{
+				double b = Integer.parseInt(result);
+				total -= b;
+			}
+		}
+		return total;
+	}
+
+	//掛け算
+
+	public double kakeru(String[] kakeru){
+		int total = 0;
+		for(String result:kakeru){
+			if(total == 0){
+				int a = Integer.parseInt(result);
+				total += a;
+			}else{
+				int b = Integer.parseInt(result);
+				total *= b;
+			}
+		}
+		return total;
+	}
+
+	//割り算
+
+	public double waru(String[] waru){
+
+	    int total = 0;
+		int count = 0;
+		for(String result:waru){
+				double a = Integer.parseInt(result);
+				total += a;
+				count ++;
+		}
+		double ans = total/count;
+		return ans;
+
+	}
+
+	//円の面積
+
+	public double en(String hankei){
+		int b = Integer.parseInt(hankei);
+		return b * b *3.141592;
+	}
+
+	public double reg(String reg){
+		int pay = 0;
+		int buyMoney = Integer.parseInt(reg);
+		for(int a=0;a < 10;a++){
+			if(buyMoney>=pay){
+			}
+		}
+	}
+}

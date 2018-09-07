@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+body{
+	width:100%;
+	height:100%;
+	line-height:center;
+	text-align:center;
+	background-color:gray;
+}
+.continer{
+	padding-top:130px;
+	background-color:white;
+}

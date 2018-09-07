@@ -1,0 +1,21 @@
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class A0907 {
+
+    public static void main(String[] args) {
+        //Mapの宣言
+        Map<String, Integer> map = new HashMap<>();
+        map.put("apple", 1);
+        map.put("orange", 2);
+        map.put("melon", 3);
+
+        //Listを宣言し、keySetメソッドを使用してキーの値を取得する
+        List<String> list = new ArrayList<>(map.keySet());
+        System.out.println(list);
+    }
+
+}

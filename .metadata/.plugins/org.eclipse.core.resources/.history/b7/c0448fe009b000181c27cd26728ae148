@@ -1,0 +1,14 @@
+package model;
+
+public class Tasulogic {
+	public void execute(Tasu tasu){
+
+		String[] results = tasu.split(" ");
+		int total = 0;
+		for(String result:results){
+			int a = Integer.parseInt(result);
+			total += a;
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package aaa;
+
+public class A0907 {
+
+	public static void main(String[] args) {
+
+		Map<String, int> map = new HashMap<String, int>();
+
+	}
+
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ローカル・ホスト の Tomcat8 (Java8)-config" deployDir="wtpwebapps" hostname="localhost" id="ローカル・ホスト の Tomcat8 (Java8)" name="ローカル・ホスト の Tomcat8 (Java8)" runtime-id="Tomcat8 (Java8)" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="40">
-    <list key="modules" value0="AA::org.eclipse.jst.jee.server:AA::jst.web::3.1" value1="Fruit::org.eclipse.jst.jee.server:Fruit::jst.web::3.1" value2="8.2::org.eclipse.jst.jee.server:8.2::jst.web::3.1" value3="AAAA::org.eclipse.jst.jee.server:AAAA::jst.web::3.1" value4="DocoTsubu::org.eclipse.jst.jee.server:DocoTsubu::jst.web::3.1"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/ローカル・ホスト の Tomcat8 (Java8)-config" deployDir="wtpwebapps" hostname="localhost" id="ローカル・ホスト の Tomcat8 (Java8)" name="ローカル・ホスト の Tomcat8 (Java8)" runtime-id="Tomcat8 (Java8)" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="4">
+    <list key="modules" value0="dentaku2::org.eclipse.jst.jee.server:dentaku2::jst.web::3.1" value1="0906::org.eclipse.jst.jee.server:0906::jst.web::3.1"/>
   </server>
 </servers>

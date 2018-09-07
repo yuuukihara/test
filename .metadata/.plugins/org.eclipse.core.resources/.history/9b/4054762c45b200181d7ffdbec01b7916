@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+body{
+	width:100%;
+	height:100%;
+	background-color:gray;
+}
+.continer{
+	background-color:white;
+	text-align:center;
+	margin:10% 10%;
+	background-color:white;
+	padding:10% 5%;
+
+}
+.top{
+	font-family:
+}
+.input{
+	height:30px;
+	width:1000%;
+}

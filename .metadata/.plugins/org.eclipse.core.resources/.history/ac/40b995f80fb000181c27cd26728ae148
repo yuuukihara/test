@@ -1,0 +1,55 @@
+package servlet;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import model.Tasulogic;
+
+
+@WebServlet("/Keisan")
+public class Keisan extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+	dispatcher.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		String tasu = request.getParameter("tasu");
+		String hiku = request.getParameter("hiku");
+		String kakeru = request.getParameter("kakeru");
+		String waru = request.getParameter("waru");
+
+		String[] math = tasu.split(" ");
+		String[] math = hiku.split(" ");
+		String[] math
+		= kakeru.split(" ");
+		String[] math = waru.split(" ");
+	
+		// TODO 足し算をする
+		Tasulogic tasuLogic = new Tasulogic();
+		int tasuResult = tasuLogic.execute(math);
+		
+		// TODO 引き算をする
+		Hikulogic hikulogic = new Hikulogic();
+		int hikuResult = hikuLogic.execute(math);
+		
+
+		request.setAttribute("tasuResult", tasuResult);
+
+
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/result.jsp");
+		dispatcher.forward(request, response);
+
+	}
+
+}

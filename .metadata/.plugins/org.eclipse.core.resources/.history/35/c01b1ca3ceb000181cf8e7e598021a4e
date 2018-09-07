@@ -1,0 +1,86 @@
+
+public class a {
+
+	public static void main(String[] args) {
+		int itemPrice = 500;
+		int pay = 700;
+		int oturi = pay-itemPrice;
+
+		int nowPrice = 0;
+
+		int itiman=0;
+		int gosen=0;
+		int sen=0;
+		int ghyaku=0;
+		int hyaku=0;
+		int goju=0;
+		int ju=0;
+		int go=0;
+		int iti=0;
+
+		for(int a=0; a< 10;a++){
+			if(oturi>=10000){
+				itiman += 1;
+				oturi-=10000;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=5000){
+				gosen += 1;
+				oturi-=5000;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=1000){
+				sen += 1;
+				oturi-=1000;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=500){
+				ghyaku += 1;
+				oturi-=500;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=100){
+				hyaku += 1;
+				oturi -=100;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=50){
+				goju += 1;
+				oturi -= 50;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=10){
+				ju += 1;
+				oturi-=10;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=5){
+				go += 1;
+				oturi-=5;
+			}
+		}
+		for(int a=0; a< 10;a++){
+			if(oturi>=1){
+				iti += 1;
+				oturi -= 1;
+			}
+		}
+		System.out.println(itiman);
+		System.out.println(gosen);
+		System.out.println(sen);
+		System.out.println(ghyaku);
+		System.out.println(hyaku);
+		System.out.println(goju);
+		System.out.println(ju);
+		System.out.println(go);
+		System.out.println(iti);
+	}
+
+}

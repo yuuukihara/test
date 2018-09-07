@@ -1,0 +1,8 @@
+@CHARSET "UTF-8";
+
+body{
+	width:1100;
+	height:30;
+	text-align:center;
+	background-color:red;
+}

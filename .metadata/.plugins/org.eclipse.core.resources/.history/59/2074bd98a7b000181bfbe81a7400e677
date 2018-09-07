@@ -1,0 +1,17 @@
+package model;
+
+public class Hikulogic {
+	public double execute(String[] hiku){
+
+		int total = 0;
+		for(String result:hiku){
+			if(total == 0){
+				double a = Integer.parseInt(result);
+				total += a;
+			}
+			double b = Integer.parseInt(result);
+			total -= b;
+		}
+		return total;
+	}
+}

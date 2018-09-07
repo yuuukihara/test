@@ -1,0 +1,10 @@
+package model;
+
+public class OturiLogic {
+	public double oturi(String[] oturi){
+		for(String itempay:oturi){
+			int a = Integer.parseInt(itempay);
+		}
+	}
+
+}

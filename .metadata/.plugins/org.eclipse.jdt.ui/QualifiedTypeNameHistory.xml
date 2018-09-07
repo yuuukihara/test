@@ -5,9 +5,7 @@
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 <fullyQualifiedTypeName name="model.HealthCheckLogin"/>
 <fullyQualifiedTypeName name="com.internousdev.template.util.DBConnector"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.internousdev.template.dto.LoginDTO"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
 <fullyQualifiedTypeName name="org.apache.struts2.interceptor.ApplicationAware"/>
@@ -19,7 +17,17 @@
 <fullyQualifiedTypeName name="model.Loginlogic"/>
 <fullyQualifiedTypeName name="model.User"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="model.PostMutterLogic"/>
+<fullyQualifiedTypeName name="util.DBConnector"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="model.Tasu"/>
+<fullyQualifiedTypeName name="model.Tasulogic"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.internousdev.login.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.login.dto.LoginDTO"/>
 </qualifiedTypeNameHistroy>

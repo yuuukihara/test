@@ -1,0 +1,29 @@
+
+public class a {
+
+	public static void main(String[] args) {
+		int itemPrice = 6500;
+
+		int nowPrice = 0;
+
+		int itiman=0;
+		int gosen=0;
+		int sen=0;
+		int ghyaku=0;
+		int hyaku=0;
+		int goju=0;
+		int ju=0;
+		int go=0;
+		int iti=0;
+
+
+		for(int a=0;a < 100;a++){
+			if(itemPrice>=10000){
+				itiman += 1;
+				itemPrice-=10000;
+			}
+		}
+
+	}
+
+}

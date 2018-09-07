@@ -1,0 +1,52 @@
+package model;
+
+public class OturiLogic {
+	public String oturi(String[] keisan){
+
+		int itemPrice = 0;
+		int payPrice = 0;
+		int first = 0;
+		String msg = "";
+
+		for(String moneya:keisan){
+			if(first == 0){
+				itemPrice = Integer.parseInt(moneya);
+				first++;
+			}else{
+				payPrice = Integer.parseInt(moneya);
+			}
+			int oturi = payPrice - itemPrice;
+
+			int[] moneyA = {0,0,0,0,0,0,0,0,0};
+		    int[] moneyB = {10000,5000,1000,500,100,50,10,5,1};
+		    for(int i=0;i<9;i++){
+		     	for(int y=0;y<100;y++){
+		       		if(oturi>=moneyB[i]){
+	        			moneyA[i] += 1;
+	        			oturi -= moneyB[i];
+	        		}
+		        }
+		    }
+
+
+			String itiman1 = Integer.toString(moneyA[0]);
+			String gosen1 = Integer.toString(moneyA[1]);
+			String sen1 = Integer.toString(moneyA[2]);
+			String ghyaku1 = Integer.toString(moneyA[3]);
+			String hyaku1 = Integer.toString(moneyA[4]);
+			String goju1 = Integer.toString(moneyA[5]);
+			String ju1 = Integer.toString(moneyA[6]);
+			String go1 = Integer.toString(moneyA[7]);
+			String iti1 = Integer.toString(moneyA[8]);
+
+				msg = "1万円:"+itiman1+"枚/"+
+				"5千円:"+gosen1+"枚/"+
+						"1000円:"+sen1+"枚/"+"500円:"+ghyaku1+"枚/"+"100円:"+hyaku1+"枚/"+"50円:"+goju1+"枚/"+"10円:"+ju1+"枚/"+"5円:"+go1+"枚/"+"1円:"+iti1+"枚";
+		}
+
+
+		return msg;
+
+	}
+
+}

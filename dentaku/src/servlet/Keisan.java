@@ -1,0 +1,49 @@
+package servlet;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import model.Tasu;
+import model.Tasulogic;
+
+
+@WebServlet("/Keisan")
+public class Keisan extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+	RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
+	dispatcher.forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+		String tasu1 = request.getParameter("tasu1");
+		String tasu2 = request.getParameter("tasu2");
+		String tasu3 = request.getParameter("tasu3");
+		String tasu4 = request.getParameter("tasu4");
+
+		int tasu11 = Integer.parseInt(tasu1);
+		int tasu22 = Integer.parseInt(tasu2);
+		int tasu33 = Integer.parseInt(tasu3);
+		int tasu44 = Integer.parseInt(tasu4);
+
+		Tasu tasu = new Tasu(tasu11,tasu22,tasu33,tasu44);
+		Tasulogic tasulogic = new Tasulogic();
+		tasulogic.execute(tasu);
+
+		request.setAttribute("tasu", tasu);
+
+		RequestDispatcher dispatcher = request.getRequestDispatcher("/result.jsp");
+		dispatcher.forward(request, response);
+
+	}
+
+}

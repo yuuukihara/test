@@ -1,0 +1,23 @@
+package model;
+
+import java.io.Serializable;
+
+public class Tasu implements Serializable{
+	private int tasu;
+	private int total;
+
+	public Tasu(){}
+
+	public Tasu(int tasu){
+		this.tasu = tasu;
+	}
+	public int getTasu(){
+		return tasu;
+	}
+	public void setTotal(int setTotal){
+		this.total = setTotal;
+	}
+	public int getTotal(){
+		return total;
+	}
+}

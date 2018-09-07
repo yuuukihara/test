@@ -1,0 +1,13 @@
+package aaa;
+
+public class B0907 {
+	public static void main(String[] args){
+		String[] a = {"a"};
+		String[] b ={"a","b"};
+		if(a.length == 1){
+			
+		}
+		
+	}
+
+}

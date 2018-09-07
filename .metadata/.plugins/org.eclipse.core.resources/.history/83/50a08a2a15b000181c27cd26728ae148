@@ -1,0 +1,14 @@
+package model;
+
+public class Kakerulogic {
+	public int execute(String[] kakeru){
+
+
+		int total = 0;
+		for(String result:tasu){
+			int a = Integer.parseInt(result);
+			total += a;
+		}
+		return total;
+	}
+}

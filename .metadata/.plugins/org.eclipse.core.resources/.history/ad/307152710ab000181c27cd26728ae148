@@ -1,0 +1,9 @@
+package model;
+
+public class Tasulogic {
+	public void execute(Tasu tasu){
+
+		}
+
+
+}
