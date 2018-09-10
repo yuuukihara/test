@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<p>入力されていません<p>
+<p>入力されていません。<p>
 <a href="/dentaku2/index.jsp">計算に戻る</a>
 
 
